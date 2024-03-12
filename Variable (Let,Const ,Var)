@@ -1,0 +1,3 @@
+** Var  -> Functional Scope        --> Avoid it , as suppose userPassword is changed in for loop will cause trouble as it is accessed globally.
+**let  -> block scope
+**const -> final (fixed) scope
