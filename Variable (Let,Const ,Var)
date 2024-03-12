@@ -1,3 +1,7 @@
 ** Var  -> Functional Scope        --> Avoid it , as suppose userPassword is changed in for loop will cause trouble as it is accessed globally.
 **let  -> block scope
 **const -> final (fixed) scope
+
+
+** IF variable is declared only not initialised give undefined
+let user;    --> console.log(user) -> undefined.
